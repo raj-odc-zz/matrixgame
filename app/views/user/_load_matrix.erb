@@ -1,0 +1,35 @@
+<%if @matrix_size!=0%>
+    <table>
+      <%row = 0%>
+      <%i=1%>
+      <% while row < @matrix_size %>
+          <tr>
+            <%column = 0%>
+            <% while column < @matrix_size %>
+                <td>
+                  <input type="button" id="btnuser_<%=i%>" style="width:95px;background-color:#B3B1B0" value=<%=i %> onclick="btnColor(this.id,'#879091',<%=i %>);" />
+                </td>
+                <%i=i+1%>
+                <%column += 1%>
+            <% end %>
+            <%row += 1%>
+          </tr>
+      <% end %>
+    </table>
+    <table>
+      <tr>
+        <td><input type="button" value="Start Game!" onclick="timedCount(<%=i%>);" /></td>
+        <td>
+          <form method="POST" action="user/update">
+            <input type="hidden" id="random_value_generated" name="random_value_generated" />
+            <input type="hidden" id="user_clicked" name="user_clicked" />
+            <input type="submit" value="Check Score!"  /></form>
+        </td>
+      </tr>
+    </table>
+
+
+
+
+
+<%end%>

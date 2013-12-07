@@ -1,0 +1,37 @@
+<html>
+<head>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script type="text/javascript">
+
+  </script>
+</head>
+<body>
+
+<ul>
+<li>Please select the matrix size
+<%= select_tag "matrix_id", options_for_select([["5X5",5],["6X6",6],["7X7",7],["8X8",8],["9X9",9],["10X10",10]]), :prompt => "Select a matrix", :onchange => "update_matrix_div(this.value)" %>
+     </li>
+  <li>
+Please select the level to play
+<%= select_tag "level_id", options_for_select([1,2,3,4,5]), :prompt => "Select a level "%>  </li>
+</ul>
+<div id="versionsDiv">
+
+</div>
+<h3>Instruction to play the game</h3>
+<ul>
+  <li>
+    Select the size of the grid and level for the game which are in dropdown box
+  </li>
+  <li>
+    Please click on the start game and concentrate on highlighted green background in random
+  </li>
+  <li>
+    Please click on the blocks what you have observed
+  </li>
+  <li>
+    After clicking the blocks and click the check score
+  </li>
+</ul>
+</body>
+</html>

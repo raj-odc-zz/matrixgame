@@ -1,0 +1,77 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1385718854.6277742:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%5bb26415a8b675ed1dd764af55003305I"logical_path;
+FI"simple.css;
+TI"pathname;
+FI",$root/app/assets/stylesheets/simple.css;
+TI"content_type;
+FI"text/css;
+FI"
+mtime;
+FI"2013-11-29T15:18:36+05:30;
+FI"	body;
+FI"§/*
+ * Simple CSS stylesheet for a navigation bar and flash messages.
+ */
+
+main {
+  background-color: #eee;
+  padding-bottom: 80px;
+  width: 100%;
+  }
+header {
+  border: 1px solid #d4d4d4;
+  background-image: linear-gradient(to bottom, white, #f2f2f2);
+  background-color: #f9f9f9;
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+ul.nav li {
+  display: inline;
+}
+ul.nav li a {
+  padding: 10px 15px 10px;
+  color: #777777;
+  text-decoration: none;
+  text-shadow: 0 1px 0 white;
+}
+.flash_notice, .flash_alert {
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 20px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+.flash_notice {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+}
+.flash_alert {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+}
+
+;
+FI"asset_paths;
+F[I",$root/app/assets/stylesheets/simple.css;
+TI"dependency_paths;
+F[{I"	path;
+FI",$root/app/assets/stylesheets/simple.css;
+TI"
+mtime;
+FIu:	Time©k€»[GÂ
+:@_zoneI"IST;
+T:nano_numi†:nano_deni:submicro"d`:offsetiXMI"hexdigest;
+F"%e64d5327ea8a9a0b05b34e8e0715487bI"_version;
+F"%0868aba5d4b750d3a9421721ea3d9b9c

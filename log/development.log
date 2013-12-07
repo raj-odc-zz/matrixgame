@@ -1,0 +1,744 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-11-29 18:27:34 +0530
+Served asset /rails.png - 200 OK (22ms)
+
+
+Started GET "/user" for 127.0.0.1 at 2013-11-29 18:27:40 +0530
+  Processing by UserController#index as HTML
+Rendered user/index.erb within layouts/application (59.6ms)
+Compiled game.js  (0ms)  (pid 2548)
+Compiled application.js  (18ms)  (pid 2548)
+Rendered layouts/_navigation_links.html.erb (0.7ms)
+Rendered layouts/_navigation.html.erb (11.5ms)
+Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 218ms (Views: 216.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-29 18:27:41 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simple.css?body=1" for 127.0.0.1 at 2013-11-29 18:27:41 +0530
+Served asset /simple.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-11-29 18:27:41 +0530
+Served asset /user.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-29 18:27:41 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-11-29 18:27:41 +0530
+Served asset /user.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2013-11-29 18:27:41 +0530
+Served asset /game.js - 200 OK (24ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-29 18:27:41 +0530
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-29 18:27:41 +0530
+Served asset /application.js - 200 OK (144ms)
+
+
+Started GET "/user/show?matrix_id=6" for 127.0.0.1 at 2013-11-29 18:27:44 +0530
+  Processing by UserController#show as */*
+  Parameters: {"matrix_id"=>"6", "id"=>"show"}
+Rendered user/_load_matrix.erb (3.2ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/update" for 127.0.0.1 at 2013-11-29 18:28:05 +0530
+  Processing by UserController#update as HTML
+  Parameters: {"random_value_generated"=>"18,13,20,24", "user_clicked"=>"18,13,20,28"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://localhost:3000/user
+Completed 302 Found in 2ms
+
+
+Started GET "/user" for 127.0.0.1 at 2013-11-29 18:28:05 +0530
+  Processing by UserController#index as HTML
+Rendered user/index.erb within layouts/application (1.2ms)
+Rendered layouts/_navigation_links.html.erb (0.0ms)
+Rendered layouts/_navigation.html.erb (2.1ms)
+Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-29 18:28:05 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simple.css?body=1" for 127.0.0.1 at 2013-11-29 18:28:05 +0530
+Served asset /simple.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-11-29 18:28:05 +0530
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-29 18:28:05 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2013-11-29 18:28:05 +0530
+Served asset /game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-29 18:28:05 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-11-29 18:28:05 +0530
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-29 18:28:05 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/user/show?matrix_id=9" for 127.0.0.1 at 2013-11-29 18:28:17 +0530
+  Processing by UserController#show as */*
+  Parameters: {"matrix_id"=>"9", "id"=>"show"}
+Rendered user/_load_matrix.erb (3.9ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/update" for 127.0.0.1 at 2013-11-29 18:28:43 +0530
+  Processing by UserController#update as HTML
+  Parameters: {"random_value_generated"=>"66,21,11,5,74", "user_clicked"=>"66,11,74,5,22"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://localhost:3000/user
+Completed 302 Found in 2ms
+
+
+Started GET "/user" for 127.0.0.1 at 2013-11-29 18:28:43 +0530
+  Processing by UserController#index as HTML
+Rendered user/index.erb within layouts/application (1.2ms)
+Rendered layouts/_navigation_links.html.erb (0.1ms)
+Rendered layouts/_navigation.html.erb (2.1ms)
+Rendered layouts/_messages.html.erb (0.3ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-29 18:28:44 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2013-11-29 18:28:44 +0530
+Served asset /game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-29 18:28:44 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-11-29 18:28:44 +0530
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-11-29 18:28:44 +0530
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-29 18:28:44 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simple.css?body=1" for 127.0.0.1 at 2013-11-29 18:28:44 +0530
+Served asset /simple.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-29 18:28:44 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/user/show?matrix_id=5" for 127.0.0.1 at 2013-11-29 18:28:47 +0530
+  Processing by UserController#show as */*
+  Parameters: {"matrix_id"=>"5", "id"=>"show"}
+Rendered user/_load_matrix.erb (1.3ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/user" for 172.16.2.83 at 2013-11-29 18:29:44 +0530
+  Processing by UserController#index as HTML
+Rendered user/index.erb within layouts/application (1.2ms)
+Rendered layouts/_navigation_links.html.erb (0.1ms)
+Rendered layouts/_navigation.html.erb (2.1ms)
+Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.16.2.83 at 2013-11-29 18:29:45 +0530
+Served asset /application.css - 200 OK (16ms)
+
+
+Started GET "/assets/user.css?body=1" for 172.16.2.83 at 2013-11-29 18:29:45 +0530
+Served asset /user.css - 200 OK (13ms)
+
+
+Started GET "/assets/simple.css?body=1" for 172.16.2.83 at 2013-11-29 18:29:45 +0530
+Served asset /simple.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.16.2.83 at 2013-11-29 18:29:45 +0530
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.16.2.83 at 2013-11-29 18:29:45 +0530
+Served asset /jquery.js - 200 OK (40ms)
+
+
+Started GET "/assets/game.js?body=1" for 172.16.2.83 at 2013-11-29 18:29:45 +0530
+Served asset /game.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 172.16.2.83 at 2013-11-29 18:29:45 +0530
+Served asset /user.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.16.2.83 at 2013-11-29 18:29:45 +0530
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/user/show?matrix_id=5" for 172.16.2.83 at 2013-11-29 18:29:51 +0530
+  Processing by UserController#show as */*
+  Parameters: {"matrix_id"=>"5", "id"=>"show"}
+Rendered user/_load_matrix.erb (1.3ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/update" for 172.16.2.83 at 2013-11-29 18:30:07 +0530
+  Processing by UserController#update as HTML
+  Parameters: {"random_value_generated"=>"10", "user_clicked"=>"10"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://172.16.3.224:3000/user
+Completed 302 Found in 2ms
+
+
+Started GET "/user" for 172.16.2.83 at 2013-11-29 18:30:07 +0530
+  Processing by UserController#index as HTML
+Rendered user/index.erb within layouts/application (1.2ms)
+Rendered layouts/_navigation_links.html.erb (0.1ms)
+Rendered layouts/_navigation.html.erb (2.2ms)
+Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/user.css?body=1" for 172.16.2.83 at 2013-11-29 18:30:07 +0530
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simple.css?body=1" for 172.16.2.83 at 2013-11-29 18:30:07 +0530
+Served asset /simple.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.16.2.83 at 2013-11-29 18:30:07 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game.js?body=1" for 172.16.2.83 at 2013-11-29 18:30:07 +0530
+Served asset /game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.16.2.83 at 2013-11-29 18:30:07 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.16.2.83 at 2013-11-29 18:30:07 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 172.16.2.83 at 2013-11-29 18:30:07 +0530
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.16.2.83 at 2013-11-29 18:30:07 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/user/show?matrix_id=6" for 172.16.2.83 at 2013-11-29 18:30:16 +0530
+  Processing by UserController#show as */*
+  Parameters: {"matrix_id"=>"6", "id"=>"show"}
+Rendered user/_load_matrix.erb (1.8ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/update" for 172.16.2.83 at 2013-11-29 18:30:28 +0530
+  Processing by UserController#update as HTML
+  Parameters: {"random_value_generated"=>"12,18", "user_clicked"=>"12,18"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://172.16.3.224:3000/user
+Completed 302 Found in 2ms
+
+
+Started GET "/user" for 172.16.2.83 at 2013-11-29 18:30:28 +0530
+  Processing by UserController#index as HTML
+Rendered user/index.erb within layouts/application (1.2ms)
+Rendered layouts/_navigation_links.html.erb (0.1ms)
+Rendered layouts/_navigation.html.erb (2.1ms)
+Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.16.2.83 at 2013-11-29 18:30:28 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simple.css?body=1" for 172.16.2.83 at 2013-11-29 18:30:28 +0530
+Served asset /simple.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 172.16.2.83 at 2013-11-29 18:30:28 +0530
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game.js?body=1" for 172.16.2.83 at 2013-11-29 18:30:28 +0530
+Served asset /game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.16.2.83 at 2013-11-29 18:30:28 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.16.2.83 at 2013-11-29 18:30:28 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 172.16.2.83 at 2013-11-29 18:30:28 +0530
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.16.2.83 at 2013-11-29 18:30:28 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/user/show?matrix_id=6" for 172.16.2.83 at 2013-11-29 18:30:33 +0530
+  Processing by UserController#show as */*
+  Parameters: {"matrix_id"=>"6", "id"=>"show"}
+Rendered user/_load_matrix.erb (1.8ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/update" for 172.16.2.83 at 2013-11-29 18:30:48 +0530
+  Processing by UserController#update as HTML
+  Parameters: {"random_value_generated"=>"8,13,24,26,26", "user_clicked"=>"8,13,26,20"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://172.16.3.224:3000/user
+Completed 302 Found in 2ms
+
+
+Started GET "/user" for 172.16.2.83 at 2013-11-29 18:30:48 +0530
+  Processing by UserController#index as HTML
+Rendered user/index.erb within layouts/application (1.2ms)
+Rendered layouts/_navigation_links.html.erb (0.1ms)
+Rendered layouts/_navigation.html.erb (2.2ms)
+Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.16.2.83 at 2013-11-29 18:30:49 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 172.16.2.83 at 2013-11-29 18:30:49 +0530
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.16.2.83 at 2013-11-29 18:30:49 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simple.css?body=1" for 172.16.2.83 at 2013-11-29 18:30:49 +0530
+Served asset /simple.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game.js?body=1" for 172.16.2.83 at 2013-11-29 18:30:49 +0530
+Served asset /game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.16.2.83 at 2013-11-29 18:30:49 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 172.16.2.83 at 2013-11-29 18:30:49 +0530
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.16.2.83 at 2013-11-29 18:30:49 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/user" for 172.16.2.83 at 2013-11-29 18:31:11 +0530
+  Processing by UserController#index as HTML
+Rendered user/index.erb within layouts/application (1.2ms)
+Rendered layouts/_navigation_links.html.erb (0.1ms)
+Rendered layouts/_navigation.html.erb (2.1ms)
+Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.16.2.83 at 2013-11-29 18:31:11 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 172.16.2.83 at 2013-11-29 18:31:11 +0530
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 172.16.2.83 at 2013-11-29 18:31:12 +0530
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.16.2.83 at 2013-11-29 18:31:12 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.16.2.83 at 2013-11-29 18:31:12 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game.js?body=1" for 172.16.2.83 at 2013-11-29 18:31:12 +0530
+Served asset /game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simple.css?body=1" for 172.16.2.83 at 2013-11-29 18:31:12 +0530
+Served asset /simple.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.16.2.83 at 2013-11-29 18:31:12 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/user/show?matrix_id=6" for 172.16.2.83 at 2013-11-29 18:31:14 +0530
+  Processing by UserController#show as */*
+  Parameters: {"matrix_id"=>"6", "id"=>"show"}
+Rendered user/_load_matrix.erb (1.8ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/update" for 172.16.2.83 at 2013-11-29 18:31:27 +0530
+  Processing by UserController#update as HTML
+  Parameters: {"random_value_generated"=>"7,1", "user_clicked"=>"7,1"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://172.16.3.224:3000/user
+Completed 302 Found in 2ms
+
+
+Started GET "/user" for 172.16.2.83 at 2013-11-29 18:31:28 +0530
+  Processing by UserController#index as HTML
+Rendered user/index.erb within layouts/application (1.2ms)
+Rendered layouts/_navigation_links.html.erb (0.1ms)
+Rendered layouts/_navigation.html.erb (2.4ms)
+Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/simple.css?body=1" for 172.16.2.83 at 2013-11-29 18:31:28 +0530
+Served asset /simple.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game.js?body=1" for 172.16.2.83 at 2013-11-29 18:31:28 +0530
+Served asset /game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 172.16.2.83 at 2013-11-29 18:31:28 +0530
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.16.2.83 at 2013-11-29 18:31:28 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.16.2.83 at 2013-11-29 18:31:28 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.16.2.83 at 2013-11-29 18:31:28 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 172.16.2.83 at 2013-11-29 18:31:28 +0530
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.16.2.83 at 2013-11-29 18:31:28 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-02 11:00:59 +0530
+  Processing by UserController#index as HTML
+Rendered user/index.erb within layouts/application (100.1ms)
+Rendered layouts/_navigation_links.html.erb (0.7ms)
+Rendered layouts/_navigation.html.erb (16.1ms)
+Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 356ms (Views: 354.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-02 11:01:03 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:03 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:03 +0530
+Served asset /game.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-02 11:01:03 +0530
+Served asset /user.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/simple.css?body=1" for 127.0.0.1 at 2013-12-02 11:01:03 +0530
+Served asset /simple.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:03 +0530
+Served asset /jquery.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:03 +0530
+Served asset /user.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:03 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/user/show?matrix_id=5" for 127.0.0.1 at 2013-12-02 11:01:06 +0530
+  Processing by UserController#show as */*
+  Parameters: {"matrix_id"=>"5", "id"=>"show"}
+Rendered user/_load_matrix.erb (2.9ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/user/show?matrix_id=6" for 127.0.0.1 at 2013-12-02 11:01:19 +0530
+  Processing by UserController#show as */*
+  Parameters: {"matrix_id"=>"6", "id"=>"show"}
+Rendered user/_load_matrix.erb (1.8ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/update" for 127.0.0.1 at 2013-12-02 11:01:28 +0530
+  Processing by UserController#update as HTML
+  Parameters: {"random_value_generated"=>"19,35", "user_clicked"=>""}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://localhost:3000/user
+Completed 302 Found in 2ms
+
+
+Started GET "/user" for 127.0.0.1 at 2013-12-02 11:01:28 +0530
+  Processing by UserController#index as HTML
+Rendered user/index.erb within layouts/application (1.3ms)
+Rendered layouts/_navigation_links.html.erb (0.1ms)
+Rendered layouts/_navigation.html.erb (2.2ms)
+Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-02 11:01:28 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simple.css?body=1" for 127.0.0.1 at 2013-12-02 11:01:28 +0530
+Served asset /simple.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-02 11:01:28 +0530
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:28 +0530
+Served asset /game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:28 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:28 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:28 +0530
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:28 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/user/show?matrix_id=7" for 127.0.0.1 at 2013-12-02 11:01:31 +0530
+  Processing by UserController#show as */*
+  Parameters: {"matrix_id"=>"7", "id"=>"show"}
+Rendered user/_load_matrix.erb (2.4ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/update" for 127.0.0.1 at 2013-12-02 11:01:38 +0530
+  Processing by UserController#update as HTML
+  Parameters: {"random_value_generated"=>"13,49,8", "user_clicked"=>""}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://localhost:3000/user
+Completed 302 Found in 2ms
+
+
+Started GET "/user" for 127.0.0.1 at 2013-12-02 11:01:38 +0530
+  Processing by UserController#index as HTML
+Rendered user/index.erb within layouts/application (1.3ms)
+Rendered layouts/_navigation_links.html.erb (0.1ms)
+Rendered layouts/_navigation.html.erb (2.5ms)
+Rendered layouts/_messages.html.erb (0.3ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-02 11:01:38 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-02 11:01:38 +0530
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:38 +0530
+Served asset /game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:38 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:38 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simple.css?body=1" for 127.0.0.1 at 2013-12-02 11:01:38 +0530
+Served asset /simple.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:38 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:38 +0530
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/user/show?matrix_id=8" for 127.0.0.1 at 2013-12-02 11:01:41 +0530
+  Processing by UserController#show as */*
+  Parameters: {"matrix_id"=>"8", "id"=>"show"}
+Rendered user/_load_matrix.erb (3.1ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/update" for 127.0.0.1 at 2013-12-02 11:01:46 +0530
+  Processing by UserController#update as HTML
+  Parameters: {"random_value_generated"=>"7", "user_clicked"=>"7"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://localhost:3000/user
+Completed 302 Found in 2ms
+
+
+Started GET "/user" for 127.0.0.1 at 2013-12-02 11:01:46 +0530
+  Processing by UserController#index as HTML
+Rendered user/index.erb within layouts/application (1.4ms)
+Rendered layouts/_navigation_links.html.erb (0.1ms)
+Rendered layouts/_navigation.html.erb (2.2ms)
+Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-02 11:01:46 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-02 11:01:46 +0530
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simple.css?body=1" for 127.0.0.1 at 2013-12-02 11:01:47 +0530
+Served asset /simple.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:47 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:47 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:47 +0530
+Served asset /game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:47 +0530
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-02 11:01:47 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/user/show?matrix_id=10" for 127.0.0.1 at 2013-12-02 11:01:51 +0530
+  Processing by UserController#show as */*
+  Parameters: {"matrix_id"=>"10", "id"=>"show"}
+Rendered user/_load_matrix.erb (4.8ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/update" for 127.0.0.1 at 2013-12-02 11:02:00 +0530
+  Processing by UserController#update as HTML
+  Parameters: {"random_value_generated"=>"94,61,3,58,82", "user_clicked"=>"94,48,3"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://localhost:3000/user
+Completed 302 Found in 2ms
+
+
+Started GET "/user" for 127.0.0.1 at 2013-12-02 11:02:00 +0530
+  Processing by UserController#index as HTML
+Rendered user/index.erb within layouts/application (1.2ms)
+Rendered layouts/_navigation_links.html.erb (0.1ms)
+Rendered layouts/_navigation.html.erb (2.2ms)
+Rendered layouts/_messages.html.erb (0.3ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-02 11:02:00 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-02 11:02:00 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-02 11:02:00 +0530
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2013-12-02 11:02:00 +0530
+Served asset /game.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-02 11:02:00 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simple.css?body=1" for 127.0.0.1 at 2013-12-02 11:02:00 +0530
+Served asset /simple.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-12-02 11:02:00 +0530
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-02 11:02:00 +0530
+Served asset /application.js - 304 Not Modified (0ms)
